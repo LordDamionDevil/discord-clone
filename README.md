@@ -1,2 +1,5 @@
 # discord-clone
-A Discord Clone
+
+Bin's Discord Clone.
+
+Not yet tested.
