@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>{{ inst_name }} - index</title>
+	<style>
+		#content {
+			text-align: center;
+		}
+	</style>
+    </head>
+    <body>
+        <main id="content">
+            <h1>
+                welcome to {{ inst_name }}, a Discord instance
+            </h1>
+
+            <p>
+            Discord is server software that implements
+            the Discord API.
+            </p>
+
+            <p>
+            It supports nodeinfo, despite not being part
+            in any federated network.
+            </p>
+
+            <p>
+                <a href="https://gitlab.com/luna/discord">Discord source code</a>
+            </p>
+            <p>
+                <a href="{{request.protocol}}/nodeinfo/2.0.json">This instance's nodeinfo</a>
+            </p>
+
+        </main>
+    </body>
+</html>
